@@ -122,7 +122,7 @@ local function set_highlights()
         Search = { fg = palette.text, bg = palette.blue, blend = 40 },
         SignColumn = { fg = palette.text, bg = palette.bg },
         SpecialKey = { fg = palette.lavender },
-        SpellBad = { sp = palette.subtle, undercurl = true },
+        SpellBad = { sp = palette.red, undercurl = true },
         SpellCap = { sp = palette.subtle, undercurl = true },
         SpellLocal = { sp = palette.subtle, undercurl = true },
         SpellRare = { sp = palette.subtle, undercurl = true },
