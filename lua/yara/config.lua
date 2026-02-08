@@ -46,10 +46,10 @@ config.options = {
         note = "blue",
         todo = "rose",
 
-        git_add = "lavender",
-        git_change = "rose",
+        git_add = "green",
+        git_change = "gold",
         git_delete = "red",
-        git_dirty = "rose",
+        git_dirty = "gold",
         git_ignore = "muted",
         git_merge = "purple",
         git_rename = "blue",
@@ -58,12 +58,12 @@ config.options = {
         git_untracked = "subtle",
 
         ---@type string | PaletteColor
-        h1 = "purple",
-        h2 = "lavender",
-        h3 = "rose",
-        h4 = "gold",
-        h5 = "blue",
-        h6 = "green",
+        h1 = "green",
+        h2 = "gold",
+        h3 = "blue",
+        h4 = "lavender",
+        h5 = "red",
+        h6 = "orange",
 
         ---@deprecated Replaced by `options.highlight_groups["Normal"]`
         -- background = "base",
