@@ -271,7 +271,7 @@ local function set_highlights()
         ["@label"] = { link = "Label" },
 
         ["@string"] = { link = "String" },
-        ["@string.regexp"] = { fg = palette.purple },
+        ["@string.regexp"] = { fg = palette.lavender },
         ["@string.escape"] = { fg = palette.blue },
         ["@string.special"] = { link = "String" },
         ["@string.special.symbol"] = { link = "Identifier" },
