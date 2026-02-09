@@ -9,32 +9,32 @@ end
 return {
     normal = {
         a = { bg = p.rose, fg = p.base, gui = "bold" },
-        b = { bg = p.overlay, fg = p.rose },
+        b = { bg = p.surface, fg = p.text },
         c = { bg = bg_base, fg = p.text },
     },
     insert = {
         a = { bg = p.lavender, fg = p.base, gui = "bold" },
-        b = { bg = p.overlay, fg = p.lavender },
+        b = { bg = p.surface, fg = p.text },
         c = { bg = bg_base, fg = p.text },
     },
     visual = {
         a = { bg = p.purple, fg = p.base, gui = "bold" },
-        b = { bg = p.overlay, fg = p.purple },
+        b = { bg = p.surface, fg = p.text },
         c = { bg = bg_base, fg = p.text },
     },
     replace = {
         a = { bg = p.blue, fg = p.base, gui = "bold" },
-        b = { bg = p.overlay, fg = p.blue },
+        b = { bg = p.surface, fg = p.text },
         c = { bg = bg_base, fg = p.text },
     },
     command = {
         a = { bg = p.red, fg = p.base, gui = "bold" },
-        b = { bg = p.overlay, fg = p.red },
+        b = { bg = p.surface, fg = p.text },
         c = { bg = bg_base, fg = p.text },
     },
     inactive = {
-        a = { bg = bg_base, fg = p.muted, gui = "bold" },
-        b = { bg = bg_base, fg = p.muted },
-        c = { bg = bg_base, fg = p.muted },
+        a = { bg = bg_base, fg = p.lavender, gui = "bold" },
+        b = { bg = bg_base, fg = p.subtle },
+        c = { bg = bg_base, fg = p.subtle },
     },
 }
