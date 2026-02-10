@@ -93,7 +93,7 @@ local function set_highlights()
         FloatBorder = { fg = palette.text, bg = palette.bg },
         FloatTitle = { fg = palette.text, bg = palette.bg },
         FoldColumn = { fg = palette.muted, bg = palette.bg },
-        Folded = { fg = palette.text, bg = palette.surface },
+        Folded = { fg = palette.text, bg = palette.lavender, blend = 50 },
         IncSearch = { fg = palette.base, bg = palette.blue },
         LineNr = { fg = palette.muted, bg = palette.bg },
         MatchParen = { fg = palette.blue, bg = palette.blue, blend = 25 },
@@ -176,7 +176,7 @@ local function set_highlights()
         DiagnosticVirtualTextWarn = { fg = groups.warn, bg = groups.warn, blend = 10 },
 
         Boolean = { fg = palette.text },
-        Character = { fg = palette.text },
+        Character = { link = "String" },
         Comment = { fg = palette.orange },
         Conditional = { fg = palette.gold },
         Constant = { fg = palette.blue },

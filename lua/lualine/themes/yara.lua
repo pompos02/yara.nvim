@@ -1,7 +1,7 @@
 local p = require("yara.palette")
 local config = require("yara.config")
 
-local bg_base = p.surface
+local bg_base = p.overlay
 if config.options.styles.transparency then
     bg_base = "NONE"
 end
