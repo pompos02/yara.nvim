@@ -179,7 +179,7 @@ local function set_highlights()
         Character = { link = "String" },
         Comment = { fg = palette.orange },
         Conditional = { fg = palette.gold },
-        Constant = { fg = palette.blue },
+        Constant = { fg = palette.lavender },
         Debug = { fg = palette.red },
         Define = { fg = palette.purple },
         Delimiter = { fg = palette.text },
