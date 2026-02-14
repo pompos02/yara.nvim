@@ -48,6 +48,7 @@ local palettes = {
         surface = "#f4f4ff",
         overlay = "#e4e4e4",
         muted = "#95a99f",
+        greyblue = "#008c99",
         subtle = "#565f73",
         text = "#000000",
         red = "#d11500",
