@@ -52,6 +52,7 @@ local palettes = {
         subtle = "#565f73",
         text = "#000000",
         red = "#d11500",
+        orange = "#B17F3D",
         gold = "#d17c00",
         rose = "#f40064",
         blue = "#0057d1",
