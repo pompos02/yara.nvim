@@ -605,7 +605,7 @@ local function set_highlights()
         FzfLuaBorder = make_border(),
         FzfLuaBufFlagAlt = { fg = palette.subtle },
         FzfLuaBufFlagCur = { fg = palette.subtle },
-        FzfLuaCursorLine = { fg = palette.text, bg = palette.highlight_low },
+        FzfLuaCursorLine = { bg = palette.highlight_med },
         FzfLuaFilePart = { fg = palette.text },
         FzfLuaHeaderBind = { fg = palette.red },
         FzfLuaHeaderText = { fg = palette.red },
