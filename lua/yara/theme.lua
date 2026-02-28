@@ -303,6 +303,7 @@ local function set_highlights()
         ["@keyword"] = { link = "Keyword" },
         ["@keyword.include"] = { fg = palette.purple},
         ["@keyword.import"] = { fg = palette.greyblue},
+        ["@keyword.exception"] = { fg = palette.red},
 
         ["@punctuation"] = { fg = palette.text },
         ["@punctuation.delimiter"] = { link = "@punctuation" },
