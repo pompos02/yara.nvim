@@ -1190,13 +1190,14 @@ local function set_highlights()
     end
 end
 
-function M.colorscheme()
+---@param name? string
+function M.colorscheme(name)
     vim.opt.termguicolors = true
     if vim.g.colors_name then
         vim.cmd("hi clear")
         vim.cmd("syntax reset")
     end
-    vim.g.colors_name = "yara"
+    vim.g.colors_name = name or "yara"
 
     package.loaded["yara.palette"] = nil
     set_highlights()

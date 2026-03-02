@@ -13,8 +13,8 @@ config.options = {
     ---border characters you are using.
     extend_background_behind_borders = true,
 
-    ---Color variant to use: "auto" (default), "dark", or "light"
-    ---@type "auto" | "dark" | "light"
+    ---Color variant to use: "auto" (default), "dark", "light", or "grey"
+    ---@type "auto" | "dark" | "light" | "grey"
     variant = "auto",
 
     enable = {

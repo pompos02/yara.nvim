@@ -5,8 +5,9 @@ function M.setup(options)
     config.extend_options(options or {})
 end
 
-function M.colorscheme()
-    require("yara.theme").colorscheme()
+---@param name? string
+function M.colorscheme(name)
+    require("yara.theme").colorscheme(name)
 end
 
 return M
