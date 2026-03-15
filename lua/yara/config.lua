@@ -34,7 +34,7 @@ config.options = {
 
     ---@type table<string, string | PaletteColor>
     groups = {
-        border = "text",
+        border = "overlay",
         link = "purple",
         panel = "surface",
 
