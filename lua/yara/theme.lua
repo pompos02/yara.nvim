@@ -27,7 +27,7 @@ local function set_highlights()
         ["@conditional"] = { link = "Conditional" },
         ["@field"] = { fg = palette.blue },
         ["@include"] = { link = "Include" },
-        ["@interface"] = { fg = palette.blue },
+        ["@interface"] = { link = "Type" },
         ["@macro"] = { link = "Macro" },
         ["@method"] = { fg = palette.blue },
         ["@namespace"] = { link = "Include" },
@@ -584,7 +584,7 @@ local function set_highlights()
         SagaShadow = { bg = palette.bg },
         TargetWord = { fg = palette.purple },
 
-        LspSignatureActiveParameter = { bg = palette.highlight_low },
+        LspSignatureActiveParameter = { bg = palette.overlay },
 
         PounceAccept = { fg = palette.red, bg = palette.red, blend = 20 },
         PounceAcceptBest = { fg = palette.gold, bg = palette.gold, blend = 20 },
