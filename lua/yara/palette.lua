@@ -25,6 +25,30 @@ local palettes = {
         highlight_high = "#52494e",
     },
 
+    low = {
+        bg = "#181818",
+        nc = "#181818",
+        base = "#1a1a1a",
+        surface = "#222222",
+        overlay = "#2f2f2f",
+        muted = "#4d4d4d",
+        subtle = "#5b5a5a",
+        text = "#9d9da1",
+        red = "#b3575c",
+        gold = "#b5a76b",
+        rose = "#b3575c",
+        orange = "#756049",
+        blue = "#676f80",
+        greyblue = "#5e6b67",
+        lavender = "#656273",
+        purple = "#454954",
+        green = "#5c784d",
+
+        highlight_low = "#0c0c0c",
+        highlight_med = "#222222",
+        highlight_high = "#464045",
+    },
+
     dark = {
         bg = "#000000",
         nc = "#000000",
@@ -82,8 +106,12 @@ local function resolve_variant()
         return "grey"
     end
 
+    if vim.g.colors_name == "yara-low" then
+        return "low"
+    end
+
     local variant = options.variant or "auto"
-    if variant == "dark" or variant == "light" or variant == "grey" then
+    if variant == "dark" or variant == "light" or variant == "grey" or variant == "low" then
         return variant
     end
 
