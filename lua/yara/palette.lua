@@ -1,7 +1,7 @@
 local options = require("yara.config").options
 
 local palettes = {
-	grey = {
+	dark = {
 		bg = "#181818",
 		nc = "#181818",
 		base = "#202020",
@@ -10,30 +10,6 @@ local palettes = {
 		muted = "#585858",
 		subtle = "#676666",
 		text = "#e4e4ef",
-		red = "#f43841",
-		gold = "#ffdd33",
-		rose = "#f43841",
-		orange = "#B17F3D",
-		blue = "#96a6c8",
-		greyblue = "#94B0A6",
-		lavender = "#9e95c7",
-		purple = "#565f73",
-		green = "#73d936",
-
-		highlight_low = "#101010",
-		highlight_med = "#282828",
-		highlight_high = "#52494e",
-	},
-
-	dark = {
-		bg = "#000000",
-		nc = "#000000",
-		base = "#101010",
-		surface = "#181818",
-		overlay = "#282828",
-		muted = "#484848",
-		subtle = "#575656",
-		text = "#ffffff",
 		red = "#f43841",
 		gold = "#ffdd33",
 		rose = "#f43841",
@@ -91,12 +67,8 @@ local function resolve_variant()
 		return "light"
 	end
 
-	if vim.g.colors_name == "yara-grey" then
-		return "grey"
-	end
-
 	local variant = options.variant or "auto"
-	if variant == "dark" or variant == "light" or variant == "grey" then
+	if variant == "dark" or variant == "light" then
 		return variant
 	end
 
