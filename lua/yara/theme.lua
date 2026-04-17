@@ -187,14 +187,14 @@ local function set_highlights()
 		Conditional = { fg = palette.gold },
 		Constant = { fg = palette.lavender },
 		Debug = { fg = palette.red },
-		Define = { fg = palette.purple },
+		Define = { fg = palette.gold },
 		Delimiter = { fg = palette.text },
 		Error = { fg = palette.red },
 		Exception = { fg = palette.red },
 		Float = { link = "Type" },
 		Function = { fg = palette.blue },
 		Identifier = { fg = palette.text },
-		Include = { fg = palette.purple },
+		Include = { link = "Include" },
 		Keyword = { fg = palette.gold, bold = true },
 		Label = { fg = palette.lavender },
 		LspCodeLens = { fg = palette.subtle },
@@ -203,10 +203,10 @@ local function set_highlights()
 		LspReferenceRead = { bold = true },
 		LspReferenceText = { bold = true },
 		LspReferenceWrite = { bold = true },
-		Macro = { fg = palette.purple },
+		Macro = { fg = palette.gold },
 		Number = { fg = palette.text },
 		Operator = { fg = palette.text },
-		PreCondit = { fg = palette.purple },
+		PreCondit = { fg = palette.gold },
 		PreProc = { link = "PreCondit" },
 		Repeat = { fg = palette.gold },
 		Special = { fg = palette.lavender },
@@ -226,7 +226,7 @@ local function set_highlights()
 		healthSuccess = { fg = groups.info },
 		healthWarning = { fg = groups.warn },
 
-		htmlArg = { fg = palette.purple },
+		htmlArg = { fg = palette.gold },
 		htmlBold = { bold = styles.bold },
 		htmlEndTag = { fg = palette.text },
 		htmlH1 = { link = "markdownH1" },
@@ -294,7 +294,7 @@ local function set_highlights()
 		["@type"] = { link = "Type" },
 		["@type.builtin"] = { link = "Type" },
 
-		["@attribute"] = { fg = palette.purple },
+		["@attribute"] = { fg = palette.text },
 
 		["@function"] = { link = "Function" },
 		["@function.builtin"] = { link = "Function" },
@@ -307,7 +307,7 @@ local function set_highlights()
 		["@operator"] = { link = "Operator" },
 
 		["@keyword"] = { link = "Keyword" },
-		["@keyword.include"] = { fg = palette.purple },
+		["@keyword.include"] = { link = "Include" },
 		["@keyword.import"] = { fg = palette.greyblue },
 		["@keyword.exception"] = { fg = palette.red },
 
@@ -367,7 +367,7 @@ local function set_highlights()
 		["@diff.delta"] = { bg = groups.git_change, blend = 20 },
 
 		["@tag"] = { link = "Tag" },
-		["@tag.attribute"] = { fg = palette.purple },
+		["@tag.attribute"] = { fg = palette.text },
 		["@tag.delimiter"] = { fg = palette.text },
 
 		["@conceal"] = { link = "Conceal" },
@@ -541,7 +541,7 @@ local function set_highlights()
 		VimwikiHeader6 = { link = "markdownH6" },
 		VimwikiHeaderChar = { fg = palette.subtle },
 		VimwikiLink = { link = "markdownUrl" },
-		VimwikiList = { fg = palette.purple },
+		VimwikiList = { fg = palette.gold },
 		VimwikiNoExistsLink = { fg = palette.red },
 
 		NeorgHeading1Prefix = { link = "markdownH1Delimiter" },
@@ -583,7 +583,7 @@ local function set_highlights()
 		ReferencesCount = { fg = palette.red },
 		ReferencesIcon = { fg = palette.red },
 		SagaShadow = { bg = palette.bg },
-		TargetWord = { fg = palette.purple },
+		TargetWord = { fg = palette.lavender },
 
 		LspSignatureActiveParameter = { bg = palette.overlay },
 
@@ -775,11 +775,11 @@ local function set_highlights()
 
 		MiniIconsAzure = { fg = palette.lavender },
 		MiniIconsBlue = { fg = palette.blue },
-		MiniIconsCyan = { fg = palette.lavender },
+		MiniIconsCyan = { fg = palette.blue },
 		MiniIconsGreen = { fg = palette.green },
 		MiniIconsGrey = { fg = palette.subtle },
 		MiniIconsOrange = { fg = palette.red },
-		MiniIconsPurple = { fg = palette.purple },
+		MiniIconsPurple = { fg = palette.lavender },
 		MiniIconsRed = { fg = palette.red },
 		MiniIconsYellow = { fg = palette.gold },
 
@@ -925,7 +925,7 @@ local function set_highlights()
 		RenderMarkdownBullet = { fg = palette.gold },
 		RenderMarkdownDash = { fg = palette.muted },
 		RenderMarkdownSign = { fg = palette.subtle },
-		RenderMarkdownMath = { fg = palette.purple },
+		RenderMarkdownMath = { fg = palette.lavender },
 		RenderMarkdownIndent = { fg = palette.muted, nocombine = true },
 		RenderMarkdownHtmlComment = { fg = palette.highlight_high, italic = styles.italic },
 		RenderMarkdownInlineHighlight = { fg = palette.text, bg = palette.highlight_low },
@@ -969,7 +969,7 @@ local function set_highlights()
 		BlinkCmpLabelMatchSelected = { fg = palette.green, bg = "NONE", bold = styles.bold },
 		BlinkCmpLabelDetail = { fg = palette.subtle, bg = "NONE" },
 		BlinkCmpLabelDescription = { fg = palette.subtle, bg = "NONE" },
-		BlinkCmpKind = { fg = palette.purple, bg = "NONE" },
+		BlinkCmpKind = { fg = palette.lavender, bg = "NONE" },
 		BlinkCmpSource = { fg = palette.muted, bg = "NONE" },
 		BlinkCmpGhostText = { fg = palette.muted, bg = "NONE" },
 		BlinkCmpDoc = { fg = palette.text, bg = palette.bg },
